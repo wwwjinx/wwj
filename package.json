@@ -1,0 +1,30 @@
+{
+  "name": "@yugutou/wwj",
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@10.33.4",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "wwj": "dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "prepublishOnly": "pnpm build"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.10.1",
+    "cac": "^6.7.14",
+    "degit": "^2.8.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
