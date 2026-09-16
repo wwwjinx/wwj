@@ -3,28 +3,35 @@
   "version": "0.1.0",
   "type": "module",
   "packageManager": "pnpm@10.33.4",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwwjinx/wwj.git"
+  },
   "publishConfig": {
     "access": "public"
   },
   "bin": {
     "wwj": "dist/index.js"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "tsx src/index.ts",
     "build": "tsc",
     "prepublishOnly": "pnpm build"
   },
   "dependencies": {
-    "@clack/prompts": "^0.10.1",
-    "cac": "^6.7.14",
-    "degit": "^2.8.4"
+    "@clack/prompts": "^1.8.1",
+    "cac": "^7.0.0",
+    "degit": "^3.10.0"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0",
-    "tsx": "^4.19.0",
-    "typescript": "^5.7.0"
+    "@types/node": "^22.20.3",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20.19.0"
   }
 }
