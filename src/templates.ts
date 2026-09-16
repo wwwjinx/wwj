@@ -5,10 +5,9 @@ export interface Template {
 }
 
 export const templates: Template[] = [
-  { name: 'vue', repo: 'yugutou-cli/vue-template', display: 'Vue' },
-  { name: 'react', repo: 'yugutou-cli/react-template', display: 'React' },
-  { name: 'koa', repo: 'yugutou-cli/koa-template', display: 'Koa' },
-  { name: 'nestjs', repo: 'yugutou-cli/nestjs-template', display: 'NestJS' },
+  { name: 'vue', repo: 'wwwjinx/vue-template', display: 'Vue' },
+  { name: 'react', repo: 'wwwjinx/react-template', display: 'React' },
+  { name: 'koa', repo: 'wwwjinx/koa-ts-template', display: 'Koa' },
 ]
 
 export function getTemplate(name: string): Template | undefined {

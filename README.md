@@ -16,16 +16,18 @@ npx @yugutou/wwj create my-app
 
 ```
 ✔ Project name: … my-app
-✔ Select template: › vue / react / koa / nestjs
+✔ Select template: › vue / react / koa
 
-✔ Downloading template from yugutou-cli/vue-template...
-✔ Template extracted to my-app/
+✔ Downloading template from wwwjinx/vue-template...
+✔ Template downloaded to my-app/
 ✔ Project name updated in package.json
 
   Done! cd my-app && pnpm install
 ```
 
 ## 安装
+
+需要 Node.js >= 20.19。
 
 ```bash
 pnpm install
@@ -57,14 +59,13 @@ pnpm build
 
 | 选项 | GitHub 仓库 |
 |------|------------|
-| vue | `yugutou-cli/vue-template` |
-| react | `yugutou-cli/react-template` |
-| koa | `yugutou-cli/koa-template` |
-| nestjs | `yugutou-cli/nestjs-template` |
+| vue | [wwwjinx/vue-template](https://github.com/wwwjinx/vue-template) |
+| react | [wwwjinx/react-template](https://github.com/wwwjinx/react-template) |
+| koa | [wwwjinx/koa-ts-template](https://github.com/wwwjinx/koa-ts-template) |
 
 ## 技术栈
 
-- **运行时**: Node.js >= 18
+- **运行时**: Node.js >= 20.19
 - **语言**: TypeScript
 - **CLI 框架**: cac
 - **交互提示**: @clack/prompts
@@ -94,7 +95,7 @@ wwj/
 在 `src/templates.ts` 的 `templates` 数组中添加条目：
 
 ```ts
-{ name: 'svelte', repo: 'yugutou-cli/svelte-template', display: 'Svelte' },
+{ name: 'svelte', repo: 'wwwjinx/svelte-template', display: 'Svelte' },
 ```
 
-然后在 `yugutou-cli` 下创建同名仓库即可。
+然后在 `wwwjinx` 下创建同名仓库即可。
