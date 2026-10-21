@@ -5,9 +5,9 @@ export interface Template {
 }
 
 export const templates: Template[] = [
-  { name: 'vue', repo: 'wwwjinx/vue-template', display: 'Vue' },
-  { name: 'react', repo: 'wwwjinx/react-template', display: 'React' },
-  { name: 'koa', repo: 'wwwjinx/koa-ts-template', display: 'Koa' },
+  { name: 'vue', repo: 'wwwjinx/vue-template#main', display: 'Vue' },
+  { name: 'react', repo: 'wwwjinx/react-template#main', display: 'React' },
+  { name: 'koa', repo: 'wwwjinx/koa-ts-template#main', display: 'Koa' },
 ]
 
 export function getTemplate(name: string): Template | undefined {

@@ -18,7 +18,7 @@ npx @yugutou/wwj create my-app
 ✔ Project name: … my-app
 ✔ Select template: › vue / react / koa
 
-✔ Downloading template from wwwjinx/vue-template...
+✔ Downloading template from wwwjinx/vue-template#main...
 ✔ Template downloaded to my-app/
 ✔ Project name updated in package.json
 
@@ -59,9 +59,9 @@ pnpm build
 
 | 选项 | GitHub 仓库 |
 |------|------------|
-| vue | [wwwjinx/vue-template](https://github.com/wwwjinx/vue-template) |
-| react | [wwwjinx/react-template](https://github.com/wwwjinx/react-template) |
-| koa | [wwwjinx/koa-ts-template](https://github.com/wwwjinx/koa-ts-template) |
+| vue | [wwwjinx/vue-template#main](https://github.com/wwwjinx/vue-template) |
+| react | [wwwjinx/react-template#main](https://github.com/wwwjinx/react-template) |
+| koa | [wwwjinx/koa-ts-template#main](https://github.com/wwwjinx/koa-ts-template) |
 
 ## 技术栈
 
